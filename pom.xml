@@ -76,6 +76,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- H2 Database for Testing -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
+        </dependency>
+
         <!-- 明确添加 Tomcat 依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
